@@ -9,7 +9,7 @@ timeout = 86400 #seconds
                 #In how many seconds the database will be cleared 
 
 visiting_subreddits = ['programming'] #subreddits to crawl
-r = praw.Reddit(client_id='UEKrYQob4E8TqQ',
+r = praw.Reddit(client_id='',
                      client_secret='',
                      password='',
                      user_agent='',
