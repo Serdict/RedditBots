@@ -5,8 +5,7 @@ import time
 
 user_agent = ('')
 
-timeout = 86400 #seconds
-                #In how many seconds the database will be cleared 
+timeout = 86400 #In how many seconds the database will be cleared 
 
 visiting_subreddits = ['programming'] #subreddits to crawl
 r = praw.Reddit(client_id='',
