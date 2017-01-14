@@ -36,6 +36,7 @@ def main():
                                                                 break
                                                         except:
                                                                 time.sleep(30)
+                                                database.append(submission.id)
                         time.sleep(300) #time until next check
 
 
