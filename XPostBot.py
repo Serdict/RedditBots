@@ -14,7 +14,7 @@ r = praw.Reddit(client_id='',
                      password='',
                      user_agent='',
                      username='')
-print(r.user.me())
+
 def main():
         while True:
                 time_start = time.time()
