@@ -30,7 +30,7 @@ def main():
                                 for submission in subreddit.new(limit=10):
                                         if submission.id not in database:
                                                 post += '['+submission.title + ']'+'(' + submission.url + ')' + '\n\n'
-                                        database.append(submission.id)
+                                                database.append(submission.id)
                         if post!="":
                                 try:
                                         r.subreddit('bottesting').submit(title='Test Post',selftext=post)
